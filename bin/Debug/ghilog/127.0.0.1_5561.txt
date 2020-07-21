@@ -1,0 +1,180 @@
+7/20/2020 9:38:41 PM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/20/2020 9:38:41 PM ---- danh sách thiết bị đang chạy 2 
+7/20/2020 9:38:46 PM ---- Tìm thiết bị lần 1 
+7/20/2020 9:38:51 PM ---- Tìm thiết bị lần 2 
+7/20/2020 9:38:57 PM ---- Tìm thiết bị lần 3 
+7/20/2020 9:39:02 PM ---- Tìm thiết bị lần 4 
+7/20/2020 9:39:07 PM ---- Tìm thiết bị lần 5 
+7/20/2020 9:39:12 PM ---- Tìm thiết bị lần 6 
+7/20/2020 9:39:17 PM ---- Tìm thiết bị lần 7 
+7/20/2020 9:39:22 PM ---- Tìm thiết bị lần 8 
+7/20/2020 9:39:27 PM ---- Tìm thiết bị lần 9 
+7/20/2020 9:39:32 PM ---- Tìm thiết bị lần 10 
+7/20/2020 9:39:32 PM ---- Tìm thiết bị thất bại ---- đóng chạy thiết bị khác 
+7/20/2020 9:39:50 PM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/20/2020 9:39:50 PM ---- danh sách thiết bị đang chạy 2 
+7/20/2020 9:39:55 PM ---- Tìm thiết bị lần 1 
+7/20/2020 9:40:00 PM ---- Tìm thiết bị lần 2 
+7/20/2020 9:40:06 PM ---- Tìm thiết bị lần 3 
+7/20/2020 9:40:21 PM ---- Tìm thấy app Gonews click vào -- đợi lòa gonews 
+7/20/2020 9:40:21 PM ---- Đi điểm danh 
+7/20/2020 9:40:47 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:40:51 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:41:27 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:41:29 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:41:35 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:41:37 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:41:40 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:41:42 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:41:42 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:41:42 PM ---- Ghi lìe log --- lần 0 
+7/20/2020 9:42:00 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:42:01 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:42:39 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:42:40 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:42:43 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:42:44 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:42:48 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:42:50 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:42:50 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:42:50 PM ---- Ghi lìe log --- lần 1 
+7/20/2020 9:42:50 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:43:25 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:43:27 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:43:27 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:43:27 PM ---- Ghi lìe log --- lần 2 
+7/20/2020 9:43:27 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:44:03 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:44:04 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:44:07 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:44:08 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:44:08 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:44:09 PM ---- Ghi lìe log --- lần 3 
+7/20/2020 9:44:09 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:44:45 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:44:47 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:44:47 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:44:47 PM ---- Ghi lìe log --- lần 4 
+7/20/2020 9:44:47 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:45:21 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:45:23 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:45:23 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:45:23 PM ---- Ghi lìe log --- lần 5 
+7/20/2020 9:45:23 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:45:59 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:46:00 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:46:03 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:46:05 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:46:05 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:46:05 PM ---- Ghi lìe log --- lần 6 
+7/20/2020 9:46:05 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:46:39 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:46:41 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:46:41 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:46:41 PM ---- Ghi lìe log --- lần 7 
+7/20/2020 9:46:41 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:47:17 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:47:18 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:47:18 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:47:18 PM ---- Ghi lìe log --- lần 8 
+7/20/2020 9:47:18 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:47:53 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:47:53 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:47:56 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:47:57 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:48:00 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:48:02 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:48:02 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:48:02 PM ---- Ghi lìe log --- lần 9 
+7/20/2020 9:48:02 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:48:36 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:48:37 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:48:40 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:48:42 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:48:42 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:48:42 PM ---- Ghi lìe log --- lần 10 
+7/20/2020 9:48:42 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:49:17 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:49:17 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:49:21 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:49:22 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:49:22 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:49:22 PM ---- Ghi lìe log --- lần 11 
+7/20/2020 9:49:22 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:49:57 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:49:57 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:50:00 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:50:01 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:50:04 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:50:06 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:50:06 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:50:06 PM ---- Ghi lìe log --- lần 12 
+7/20/2020 9:50:06 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:50:40 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:50:41 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:50:44 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:50:45 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:50:48 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:50:50 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:50:50 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:50:50 PM ---- Ghi lìe log --- lần 13 
+7/20/2020 9:50:50 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:51:25 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:51:26 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:51:26 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:51:26 PM ---- Ghi lìe log --- lần 14 
+7/20/2020 9:51:26 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:52:02 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:52:03 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:52:03 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:52:03 PM ---- Ghi lìe log --- lần 15 
+7/20/2020 9:52:03 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:52:39 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:52:40 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:52:40 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:52:40 PM ---- Ghi lìe log --- lần 16 
+7/20/2020 9:52:40 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:53:15 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:53:15 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:53:19 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:53:20 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:53:20 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:53:20 PM ---- Ghi lìe log --- lần 17 
+7/20/2020 9:53:20 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:53:55 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:53:57 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:53:57 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:53:57 PM ---- Ghi lìe log --- lần 18 
+7/20/2020 9:53:57 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:54:31 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:54:33 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:54:33 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:54:33 PM ---- Ghi lìe log --- lần 19 
+7/20/2020 9:54:33 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:55:08 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:55:09 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:55:09 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:55:10 PM ---- Ghi lìe log --- lần 20 
+7/20/2020 9:55:10 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:55:45 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:55:47 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:55:47 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:55:47 PM ---- Ghi lìe log --- lần 21 
+7/20/2020 9:55:47 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:56:21 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:56:22 PM ---- Không tìm thấy bài báo mới nào 
+7/20/2020 9:56:26 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:56:27 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:56:27 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:56:27 PM ---- Ghi lìe log --- lần 22 
+7/20/2020 9:56:27 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:57:02 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:57:04 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:57:04 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:57:04 PM ---- Ghi lìe log --- lần 23 
+7/20/2020 9:57:04 PM ---- đọc bài báo 4 lần 
+7/20/2020 9:57:39 PM ---- Đi tìm bài báo mới và click nó 
+7/20/2020 9:57:40 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/20/2020 9:57:40 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/20/2020 9:57:40 PM ---- Ghi lìe log --- lần 24 
+7/20/2020 9:57:40 PM ---- đọc bài báo 4 lần 
