@@ -1,0 +1,247 @@
+7/24/2020 2:41:21 AM ---- tài khoản chạy --- vutinhhp6.lnk --- 127.0.0.1:5567 
+7/24/2020 2:41:21 AM ---- danh sách thiết bị đang chạy 3 
+7/24/2020 2:41:26 AM ---- Tìm thiết bị lần 1 
+7/24/2020 2:41:31 AM ---- Tìm thiết bị lần 2 
+7/24/2020 2:41:37 AM ---- Tìm thiết bị lần 3 
+7/24/2020 2:41:42 AM ---- Tìm thiết bị lần 4 
+7/24/2020 2:41:56 AM ---- Yêu cầu update gonews bản mới nhất 
+7/24/2020 2:42:07 AM ---- Update --- tìm thấy kí hieu 3 gach 
+7/24/2020 2:42:08 AM ---- Update --- tìm cap nhat tat cả hoặc không cớ cập nhật nào 
+7/24/2020 2:42:16 AM ---- Update --- tìm thấy button cập nhật tất cả 
+7/24/2020 2:42:30 AM ---- Update --- tìm thấy button không có bản cập nhật nào --- cập nhật thành công 
+7/24/2020 2:42:30 AM ---- Không tìm thấy 3 gachj sau 10 laanf chay 1 giay 
+7/24/2020 2:42:38 AM ---- Tìm thấy app Gonews click vào -- đợi lòa gonews 
+7/24/2020 2:42:38 AM ---- Đi điểm danh 
+7/24/2020 2:43:32 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:43:35 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:43:35 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:43:37 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:43:39 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:43:39 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:43:41 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:43:42 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:43:43 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:43:45 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:43:46 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:43:46 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:43:48 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:43:49 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:43:49 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:43:51 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:43:51 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:43:51 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:43:53 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:43:54 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:43:54 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:43:56 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:43:57 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:43:57 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:43:59 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:44:00 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:44:00 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:44:02 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:44:03 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:44:03 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:44:05 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:44:06 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:44:06 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:44:08 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:44:09 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:44:09 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:44:11 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:44:12 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:44:12 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:44:14 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:44:15 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:44:15 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:44:17 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:44:18 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:44:18 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:44:20 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:44:21 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:44:21 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:44:23 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:44:24 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:44:24 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:44:26 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:44:27 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:44:27 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:44:29 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:44:29 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:44:29 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:44:31 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:44:32 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:44:32 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:44:34 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:44:36 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:44:36 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:44:36 AM ---- Không tìm thấy bài viết sau 20 lần -- 2s/lần, xóa đi chạy lai 
+7/24/2020 2:48:18 AM ---- tài khoản chạy --- vutinhhp6.lnk --- 127.0.0.1:5567 
+7/24/2020 2:48:18 AM ---- danh sách thiết bị đang chạy 3 
+7/24/2020 2:48:23 AM ---- Tìm thiết bị lần 1 
+7/24/2020 2:48:29 AM ---- Tìm thiết bị lần 2 
+7/24/2020 2:48:34 AM ---- Tìm thiết bị lần 3 
+7/24/2020 2:48:40 AM ---- Tìm thiết bị lần 4 
+7/24/2020 2:48:47 AM ---- Tìm thiết bị lần 5 
+7/24/2020 2:49:03 AM ---- Tìm thấy app Gonews click vào -- đợi lòa gonews 
+7/24/2020 2:49:03 AM ---- Đi điểm danh 
+7/24/2020 2:49:50 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:49:53 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:06 AM ---- đọc bài báo 4 lần 
+7/24/2020 2:50:47 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:49 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:50 AM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/24/2020 2:50:50 AM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/24/2020 2:50:50 AM ---- đọc bài báo 4 lần 
+7/24/2020 3:10:07 AM ---- tài khoản chạy --- vutinhhp6.lnk --- 127.0.0.1:5567 
+7/24/2020 3:10:07 AM ---- danh sách thiết bị đang chạy 3 
+7/24/2020 3:10:12 AM ---- Tìm thiết bị lần 1 
+7/24/2020 3:10:17 AM ---- Tìm thiết bị lần 2 
+7/24/2020 3:10:23 AM ---- Tìm thiết bị lần 3 
+7/24/2020 3:10:30 AM ---- Tìm thiết bị lần 4 
+7/24/2020 3:10:37 AM ---- Tìm thiết bị lần 5 
+7/24/2020 3:10:53 AM ---- Tìm thấy app Gonews click vào -- đợi lòa gonews 
+7/24/2020 3:10:53 AM ---- Đi điểm danh 
+7/24/2020 3:11:40 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:11:41 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:11:54 AM ---- đọc bài báo 4 lần 
+7/24/2020 3:13:35 AM ---- tài khoản chạy --- vutinhhp6.lnk --- 127.0.0.1:5567 
+7/24/2020 3:13:35 AM ---- tài khoản chạy --- vutinhhp6.lnk --- 127.0.0.1:5567 
+7/24/2020 3:13:35 AM ---- danh sách thiết bị đang chạy 4 
+7/24/2020 3:13:36 AM ---- danh sách thiết bị đang chạy 5 
+7/24/2020 3:13:40 AM ---- Tìm thiết bị lần 1 
+7/24/2020 3:13:45 AM ---- Tìm thiết bị lần 1 
+7/24/2020 3:13:45 AM ---- Tìm thiết bị lần 2 
+7/24/2020 3:13:51 AM ---- Tìm thiết bị lần 2 
+7/24/2020 3:13:51 AM ---- Tìm thiết bị lần 3 
+7/24/2020 3:13:57 AM ---- Tìm thiết bị lần 4 
+7/24/2020 3:13:58 AM ---- Tìm thiết bị lần 3 
+7/24/2020 3:14:29 AM ---- Tìm thấy app Gonews click vào -- đợi lòa gonews 
+7/24/2020 3:14:29 AM ---- Đi điểm danh 
+7/24/2020 3:15:43 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:15:44 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:15:44 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:15:46 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:15:48 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:15:48 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:15:50 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:15:51 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:15:51 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:15:53 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:15:57 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:15:57 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:15:59 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:16:02 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:16:02 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:16:04 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:16:07 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:16:07 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:16:20 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:16:22 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:16:22 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:16:24 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:16:25 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:16:25 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:16:27 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:16:28 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:16:29 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:16:31 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:16:33 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:16:33 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:16:35 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:16:36 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:16:36 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:16:38 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:16:39 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:16:40 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:16:42 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:16:43 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:16:43 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:16:45 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:16:48 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:16:48 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:16:50 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:16:53 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:16:53 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:17:01 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:17:03 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:17:03 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:17:07 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:17:10 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:17:10 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:17:12 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:17:15 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:17:15 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:17:17 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:20:26 AM ---- tài khoản chạy --- vutinhhp6.lnk --- 127.0.0.1:5567 
+7/24/2020 3:20:26 AM ---- danh sách thiết bị đang chạy 1 
+7/24/2020 3:20:31 AM ---- Tìm thiết bị lần 1 
+7/24/2020 3:20:36 AM ---- Tìm thiết bị lần 2 
+7/24/2020 3:20:42 AM ---- Tìm thiết bị lần 3 
+7/24/2020 3:20:48 AM ---- Tìm thiết bị lần 4 
+7/24/2020 3:21:04 AM ---- Tìm thấy app Gonews click vào -- đợi lòa gonews 
+7/24/2020 3:21:04 AM ---- Đi điểm danh 
+7/24/2020 3:22:07 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:22:09 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:22:09 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:22:12 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:22:14 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:22:14 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:22:16 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:22:18 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:22:19 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:22:21 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:22:23 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:22:23 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:22:25 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:22:30 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:22:30 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:22:32 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:22:33 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:22:33 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:22:35 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:22:37 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:22:37 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:22:39 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:22:40 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:22:40 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:22:42 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:22:44 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:22:44 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:22:46 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:22:47 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:22:47 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:22:49 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:22:51 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:22:51 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:22:53 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:22:54 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:22:54 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:22:56 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:22:58 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:22:58 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:23:00 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:23:02 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:23:02 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:23:04 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:23:07 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:23:07 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:23:09 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:23:11 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:23:11 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:23:13 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:23:15 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:23:15 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:23:17 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:23:19 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:23:19 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:23:22 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:23:23 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:23:24 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:23:26 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:23:27 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:23:27 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:23:29 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:23:32 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:23:32 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 3:23:32 AM ---- Không tìm thấy bài viết sau 20 lần -- 2s/lần, xóa đi chạy lai 

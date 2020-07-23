@@ -1,180 +1,246 @@
-7/20/2020 9:38:41 PM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
-7/20/2020 9:38:41 PM ---- danh sách thiết bị đang chạy 2 
-7/20/2020 9:38:46 PM ---- Tìm thiết bị lần 1 
-7/20/2020 9:38:51 PM ---- Tìm thiết bị lần 2 
-7/20/2020 9:38:57 PM ---- Tìm thiết bị lần 3 
-7/20/2020 9:39:02 PM ---- Tìm thiết bị lần 4 
-7/20/2020 9:39:07 PM ---- Tìm thiết bị lần 5 
-7/20/2020 9:39:12 PM ---- Tìm thiết bị lần 6 
-7/20/2020 9:39:17 PM ---- Tìm thiết bị lần 7 
-7/20/2020 9:39:22 PM ---- Tìm thiết bị lần 8 
-7/20/2020 9:39:27 PM ---- Tìm thiết bị lần 9 
-7/20/2020 9:39:32 PM ---- Tìm thiết bị lần 10 
-7/20/2020 9:39:32 PM ---- Tìm thiết bị thất bại ---- đóng chạy thiết bị khác 
-7/20/2020 9:39:50 PM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
-7/20/2020 9:39:50 PM ---- danh sách thiết bị đang chạy 2 
-7/20/2020 9:39:55 PM ---- Tìm thiết bị lần 1 
-7/20/2020 9:40:00 PM ---- Tìm thiết bị lần 2 
-7/20/2020 9:40:06 PM ---- Tìm thiết bị lần 3 
-7/20/2020 9:40:21 PM ---- Tìm thấy app Gonews click vào -- đợi lòa gonews 
-7/20/2020 9:40:21 PM ---- Đi điểm danh 
-7/20/2020 9:40:47 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:40:51 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:41:27 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:41:29 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:41:35 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:41:37 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:41:40 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:41:42 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:41:42 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:41:42 PM ---- Ghi lìe log --- lần 0 
-7/20/2020 9:42:00 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:42:01 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:42:39 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:42:40 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:42:43 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:42:44 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:42:48 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:42:50 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:42:50 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:42:50 PM ---- Ghi lìe log --- lần 1 
-7/20/2020 9:42:50 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:43:25 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:43:27 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:43:27 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:43:27 PM ---- Ghi lìe log --- lần 2 
-7/20/2020 9:43:27 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:44:03 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:44:04 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:44:07 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:44:08 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:44:08 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:44:09 PM ---- Ghi lìe log --- lần 3 
-7/20/2020 9:44:09 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:44:45 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:44:47 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:44:47 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:44:47 PM ---- Ghi lìe log --- lần 4 
-7/20/2020 9:44:47 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:45:21 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:45:23 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:45:23 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:45:23 PM ---- Ghi lìe log --- lần 5 
-7/20/2020 9:45:23 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:45:59 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:46:00 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:46:03 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:46:05 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:46:05 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:46:05 PM ---- Ghi lìe log --- lần 6 
-7/20/2020 9:46:05 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:46:39 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:46:41 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:46:41 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:46:41 PM ---- Ghi lìe log --- lần 7 
-7/20/2020 9:46:41 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:47:17 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:47:18 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:47:18 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:47:18 PM ---- Ghi lìe log --- lần 8 
-7/20/2020 9:47:18 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:47:53 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:47:53 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:47:56 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:47:57 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:48:00 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:48:02 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:48:02 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:48:02 PM ---- Ghi lìe log --- lần 9 
-7/20/2020 9:48:02 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:48:36 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:48:37 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:48:40 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:48:42 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:48:42 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:48:42 PM ---- Ghi lìe log --- lần 10 
-7/20/2020 9:48:42 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:49:17 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:49:17 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:49:21 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:49:22 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:49:22 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:49:22 PM ---- Ghi lìe log --- lần 11 
-7/20/2020 9:49:22 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:49:57 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:49:57 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:50:00 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:50:01 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:50:04 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:50:06 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:50:06 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:50:06 PM ---- Ghi lìe log --- lần 12 
-7/20/2020 9:50:06 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:50:40 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:50:41 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:50:44 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:50:45 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:50:48 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:50:50 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:50:50 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:50:50 PM ---- Ghi lìe log --- lần 13 
-7/20/2020 9:50:50 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:51:25 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:51:26 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:51:26 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:51:26 PM ---- Ghi lìe log --- lần 14 
-7/20/2020 9:51:26 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:52:02 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:52:03 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:52:03 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:52:03 PM ---- Ghi lìe log --- lần 15 
-7/20/2020 9:52:03 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:52:39 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:52:40 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:52:40 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:52:40 PM ---- Ghi lìe log --- lần 16 
-7/20/2020 9:52:40 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:53:15 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:53:15 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:53:19 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:53:20 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:53:20 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:53:20 PM ---- Ghi lìe log --- lần 17 
-7/20/2020 9:53:20 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:53:55 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:53:57 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:53:57 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:53:57 PM ---- Ghi lìe log --- lần 18 
-7/20/2020 9:53:57 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:54:31 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:54:33 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:54:33 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:54:33 PM ---- Ghi lìe log --- lần 19 
-7/20/2020 9:54:33 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:55:08 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:55:09 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:55:09 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:55:10 PM ---- Ghi lìe log --- lần 20 
-7/20/2020 9:55:10 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:55:45 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:55:47 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:55:47 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:55:47 PM ---- Ghi lìe log --- lần 21 
-7/20/2020 9:55:47 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:56:21 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:56:22 PM ---- Không tìm thấy bài báo mới nào 
-7/20/2020 9:56:26 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:56:27 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:56:27 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:56:27 PM ---- Ghi lìe log --- lần 22 
-7/20/2020 9:56:27 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:57:02 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:57:04 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:57:04 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:57:04 PM ---- Ghi lìe log --- lần 23 
-7/20/2020 9:57:04 PM ---- đọc bài báo 4 lần 
-7/20/2020 9:57:39 PM ---- Đi tìm bài báo mới và click nó 
-7/20/2020 9:57:40 PM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
-7/20/2020 9:57:40 PM ---- Tìm thâí bài báo sau 0 số lần lặp 
-7/20/2020 9:57:40 PM ---- Ghi lìe log --- lần 24 
-7/20/2020 9:57:40 PM ---- đọc bài báo 4 lần 
+7/24/2020 1:36:21 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 1:36:21 AM ---- danh sách thiết bị đang chạy 2 
+7/24/2020 1:36:26 AM ---- Tìm thiết bị lần 1 
+7/24/2020 1:36:31 AM ---- Tìm thiết bị lần 2 
+7/24/2020 1:36:37 AM ---- Tìm thiết bị lần 3 
+7/24/2020 1:43:47 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 1:43:47 AM ---- danh sách thiết bị đang chạy 2 
+7/24/2020 1:43:52 AM ---- Tìm thiết bị lần 1 
+7/24/2020 1:43:57 AM ---- Tìm thiết bị lần 2 
+7/24/2020 1:44:03 AM ---- Tìm thiết bị lần 3 
+7/24/2020 1:51:15 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 1:51:15 AM ---- danh sách thiết bị đang chạy 2 
+7/24/2020 1:51:21 AM ---- Tìm thiết bị lần 1 
+7/24/2020 1:51:26 AM ---- Tìm thiết bị lần 2 
+7/24/2020 1:51:32 AM ---- Tìm thiết bị lần 3 
+7/24/2020 1:52:52 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 1:52:52 AM ---- danh sách thiết bị đang chạy 2 
+7/24/2020 1:52:57 AM ---- Tìm thiết bị lần 1 
+7/24/2020 1:53:03 AM ---- Tìm thiết bị lần 2 
+7/24/2020 1:53:08 AM ---- Tìm thiết bị lần 3 
+7/24/2020 1:53:40 AM ---- Tìm thấy app Gonews click vào -- đợi lòa gonews 
+7/24/2020 1:53:41 AM ---- Đi điểm danh 
+7/24/2020 1:54:18 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 1:54:18 AM ---- danh sách thiết bị đang chạy 2 
+7/24/2020 1:54:23 AM ---- Tìm thiết bị lần 1 
+7/24/2020 1:54:28 AM ---- Tìm thiết bị lần 2 
+7/24/2020 1:54:53 AM ---- Tìm thiết bị lần 3 
+7/24/2020 1:55:26 AM ---- Tìm thấy app Gonews click vào -- đợi lòa gonews 
+7/24/2020 1:55:27 AM ---- Đi điểm danh 
+7/24/2020 2:01:15 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 2:01:15 AM ---- danh sách thiết bị đang chạy 2 
+7/24/2020 2:01:20 AM ---- Tìm thiết bị lần 1 
+7/24/2020 2:01:25 AM ---- Tìm thiết bị lần 2 
+7/24/2020 2:01:31 AM ---- Tìm thiết bị lần 3 
+7/24/2020 2:13:41 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 2:13:41 AM ---- danh sách thiết bị đang chạy 2 
+7/24/2020 2:13:47 AM ---- Tìm thiết bị lần 1 
+7/24/2020 2:13:52 AM ---- Tìm thiết bị lần 2 
+7/24/2020 2:13:58 AM ---- Tìm thiết bị lần 3 
+7/24/2020 2:14:23 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 2:14:23 AM ---- danh sách thiết bị đang chạy 2 
+7/24/2020 2:14:28 AM ---- Tìm thiết bị lần 1 
+7/24/2020 2:14:33 AM ---- Tìm thiết bị lần 2 
+7/24/2020 2:14:46 AM ---- Tìm thiết bị lần 3 
+7/24/2020 2:15:35 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 2:15:35 AM ---- danh sách thiết bị đang chạy 2 
+7/24/2020 2:15:40 AM ---- Tìm thiết bị lần 1 
+7/24/2020 2:15:46 AM ---- Tìm thiết bị lần 2 
+7/24/2020 2:15:51 AM ---- Tìm thiết bị lần 3 
+7/24/2020 2:15:55 AM ---- Yêu cầu update gonews bản mới nhất 
+7/24/2020 2:19:41 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 2:19:41 AM ---- danh sách thiết bị đang chạy 2 
+7/24/2020 2:19:46 AM ---- Tìm thiết bị lần 1 
+7/24/2020 2:19:51 AM ---- Tìm thiết bị lần 2 
+7/24/2020 2:19:57 AM ---- Tìm thiết bị lần 3 
+7/24/2020 2:20:01 AM ---- Yêu cầu update gonews bản mới nhất 
+7/24/2020 2:20:43 AM ---- Không tìm thấy 3 gachj sau 10 laanf chay 1 giay 
+7/24/2020 2:22:26 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 2:22:26 AM ---- danh sách thiết bị đang chạy 2 
+7/24/2020 2:22:32 AM ---- Tìm thiết bị lần 1 
+7/24/2020 2:22:37 AM ---- Tìm thiết bị lần 2 
+7/24/2020 2:22:43 AM ---- Tìm thiết bị lần 3 
+7/24/2020 2:22:47 AM ---- Yêu cầu update gonews bản mới nhất 
+7/24/2020 2:23:16 AM ---- Không tìm thấy 3 gachj sau 10 laanf chay 1 giay 
+7/24/2020 2:24:41 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 2:24:41 AM ---- danh sách thiết bị đang chạy 2 
+7/24/2020 2:24:47 AM ---- Tìm thiết bị lần 1 
+7/24/2020 2:24:52 AM ---- Tìm thiết bị lần 2 
+7/24/2020 2:24:58 AM ---- Tìm thiết bị lần 3 
+7/24/2020 2:25:02 AM ---- Yêu cầu update gonews bản mới nhất 
+7/24/2020 2:25:32 AM ---- Không tìm thấy 3 gachj sau 10 laanf chay 1 giay 
+7/24/2020 2:25:45 AM ---- Tìm thấy app Gonews click vào -- đợi lòa gonews 
+7/24/2020 2:25:48 AM ---- Đi điểm danh 
+7/24/2020 2:27:18 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:33:00 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 2:33:00 AM ---- danh sách thiết bị đang chạy 2 
+7/24/2020 2:33:05 AM ---- Tìm thiết bị lần 1 
+7/24/2020 2:33:10 AM ---- Tìm thiết bị lần 2 
+7/24/2020 2:33:16 AM ---- Tìm thiết bị lần 3 
+7/24/2020 2:33:21 AM ---- Yêu cầu update gonews bản mới nhất 
+7/24/2020 2:33:33 AM ---- Update --- tìm thấy kí hieu 3 gach 
+7/24/2020 2:33:40 AM ---- Update --- tìm cap nhat tat cả hoặc không cớ cập nhật nào 
+7/24/2020 2:33:47 AM ---- Update --- tìm thấy button cập nhật tất cả 
+7/24/2020 2:33:58 AM ---- Update --- tìm thấy button không có bản cập nhật nào --- cập nhật thành công 
+7/24/2020 2:34:01 AM ---- Không tìm thấy 3 gachj sau 10 laanf chay 1 giay 
+7/24/2020 2:34:11 AM ---- Tìm thấy app Gonews click vào -- đợi lòa gonews 
+7/24/2020 2:34:11 AM ---- Đi điểm danh 
+7/24/2020 2:34:45 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:34:46 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:34:58 AM ---- đọc bài báo 4 lần 
+7/24/2020 2:35:33 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:35:34 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:35:35 AM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/24/2020 2:35:35 AM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/24/2020 2:35:35 AM ---- đọc bài báo 4 lần 
+7/24/2020 2:36:06 AM ---- Đọc thêm lần 5 
+7/24/2020 2:36:16 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:36:17 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:36:17 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:36:20 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:36:21 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:36:22 AM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/24/2020 2:36:22 AM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/24/2020 2:36:22 AM ---- đọc bài báo 4 lần 
+7/24/2020 2:37:13 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:37:13 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:37:14 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:37:17 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:37:18 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:37:18 AM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/24/2020 2:37:18 AM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/24/2020 2:37:18 AM ---- đọc bài báo 4 lần 
+7/24/2020 2:37:54 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:37:55 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:37:56 AM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/24/2020 2:37:56 AM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/24/2020 2:37:56 AM ---- đọc bài báo 4 lần 
+7/24/2020 2:48:19 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 2:48:19 AM ---- danh sách thiết bị đang chạy 4 
+7/24/2020 2:48:25 AM ---- Tìm thiết bị lần 1 
+7/24/2020 2:48:30 AM ---- Tìm thiết bị lần 2 
+7/24/2020 2:48:36 AM ---- Tìm thiết bị lần 3 
+7/24/2020 2:48:43 AM ---- Tìm thiết bị lần 4 
+7/24/2020 2:48:48 AM ---- Tìm thấy app Gonews click vào -- đợi lòa gonews 
+7/24/2020 2:48:48 AM ---- Đi điểm danh 
+7/24/2020 2:50:03 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:05 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:05 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:50:07 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:09 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:09 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:50:11 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:13 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:13 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:50:15 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:17 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:17 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:50:19 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:21 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:21 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:50:23 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:24 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:24 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:50:26 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:27 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:27 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:50:29 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:30 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:31 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:50:33 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:34 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:34 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:50:36 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:37 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:37 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:50:39 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:40 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:40 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:50:42 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:43 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:43 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:50:45 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:47 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:47 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:50:49 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:51 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:51 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:50:53 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:50:55 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:50:56 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:50:58 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:51:00 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:51:00 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:51:02 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:51:04 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:51:04 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:51:06 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:51:07 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:51:08 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:51:10 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:51:11 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:51:12 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:51:14 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:51:15 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:51:16 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:51:18 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 2:51:19 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 2:51:19 AM ---- Không tìm thấy bài báo mới nào 
+7/24/2020 2:51:19 AM ---- Không tìm thấy bài viết sau 20 lần -- 2s/lần, xóa đi chạy lai 
+7/24/2020 3:10:08 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 3:10:08 AM ---- danh sách thiết bị đang chạy 4 
+7/24/2020 3:10:13 AM ---- Tìm thiết bị lần 1 
+7/24/2020 3:10:18 AM ---- Tìm thiết bị lần 2 
+7/24/2020 3:10:24 AM ---- Tìm thiết bị lần 3 
+7/24/2020 3:10:31 AM ---- Tìm thiết bị lần 4 
+7/24/2020 3:10:37 AM ---- Tìm thấy app Gonews click vào -- đợi lòa gonews 
+7/24/2020 3:10:37 AM ---- Đi điểm danh 
+7/24/2020 3:11:16 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:11:18 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:12:00 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:13:37 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 3:13:37 AM ---- danh sách thiết bị đang chạy 6 
+7/24/2020 3:13:51 AM ---- Tìm thiết bị lần 1 
+7/24/2020 3:13:57 AM ---- Tìm thiết bị lần 2 
+7/24/2020 3:14:06 AM ---- Tìm thấy app Gonews click vào -- đợi lòa gonews 
+7/24/2020 3:14:06 AM ---- Đi điểm danh 
+7/24/2020 3:14:51 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:14:54 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:15:19 AM ---- đọc bài báo 4 lần 
+7/24/2020 3:15:59 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:16:01 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:16:02 AM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/24/2020 3:16:02 AM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/24/2020 3:16:20 AM ---- đọc bài báo 4 lần 
+7/24/2020 3:17:10 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:17:11 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:17:12 AM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/24/2020 3:17:12 AM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/24/2020 3:20:30 AM ---- tài khoản chạy --- vutinhhp2.lnk --- 127.0.0.1:5561 
+7/24/2020 3:20:30 AM ---- danh sách thiết bị đang chạy 4 
+7/24/2020 3:20:36 AM ---- Tìm thiết bị lần 1 
+7/24/2020 3:20:41 AM ---- Tìm thiết bị lần 2 
+7/24/2020 3:20:47 AM ---- Tìm thiết bị lần 3 
+7/24/2020 3:20:53 AM ---- Tìm thiết bị lần 4 
+7/24/2020 3:20:59 AM ---- Tìm thiết bị lần 5 
+7/24/2020 3:21:03 AM ---- Tìm thấy app Gonews click vào -- đợi lòa gonews 
+7/24/2020 3:21:03 AM ---- Đi điểm danh 
+7/24/2020 3:21:32 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:21:34 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:21:42 AM ---- đọc bài báo 4 lần 
+7/24/2020 3:22:23 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:22:24 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:22:25 AM ---- Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới 
+7/24/2020 3:22:25 AM ---- Tìm thâí bài báo sau 0 số lần lặp 
+7/24/2020 3:22:25 AM ---- đọc bài báo 4 lần 
+7/24/2020 3:23:40 AM ---- Đọc thêm lần 5 
+7/24/2020 3:23:51 AM ---- Đọc thêm lần 6 
+7/24/2020 3:24:01 AM ---- đọc bài báo 4 lần 
+7/24/2020 3:24:35 AM ---- Đọc thêm lần 5 
+7/24/2020 3:24:45 AM ---- Đọc thêm lần 6 
+7/24/2020 3:24:56 AM ---- đọc bài báo 4 lần 
+7/24/2020 3:25:31 AM ---- Đọc thêm lần 5 
+7/24/2020 3:25:41 AM ---- Đọc thêm lần 6 
+7/24/2020 3:26:09 AM ---- Đi tìm bài báo mới và click nó 
+7/24/2020 3:26:10 AM ---- Đang khóa ảnh trước của bài báo 
+7/24/2020 3:26:10 AM ---- Không tìm thấy bài báo mới nào 

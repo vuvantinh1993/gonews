@@ -17,5 +17,13 @@ namespace gonews
                 delay--;
             }
         }
+
+        public static void DelayMiliSecond(int delay)
+        {
+            if (delay > 0)
+            {
+                Thread.Sleep(delay);
+            }
+        }
     }
 }
