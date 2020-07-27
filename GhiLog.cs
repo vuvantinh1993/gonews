@@ -9,7 +9,7 @@ using System.Windows;
 
 namespace gonews
 {
-    public static class GhiLog 
+    public static class GhiLog
     {
         public static void Write(string nameFolder, string content)
         {
@@ -175,18 +175,12 @@ namespace gonews
                         nameShotcut = splitAccount[1];
                         deviceId = splitAccount[0];
                         count = Convert.ToInt32(splitAccount[3]);
+                        return (nameShotcut, deviceId, count);
                     }
                 }
             }
-            if (nameShotcut == "")
-            {
-                MessageBox.Show("Tất cả tài khoản hôm nay đã hoàn thành");
-                return ("", "", 0);
-            }
-            else
-            {
-                return (nameShotcut, deviceId, count);
-            }
+            MessageBox.Show("Tất cả tài khoản hôm nay đã hoàn thành");
+            return ("", "", 0);
         }
     }
 }

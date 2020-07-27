@@ -91,21 +91,21 @@ namespace gonews
                 // tìm devices
                 List<string> decices = KAutoHelper.ADBHelper.GetDevices();
                 var soLanTimDevice = 0;
-                while (soLanTimDevice < 40 && !decices.Contains(deviceID))
+                while (soLanTimDevice < 30 && !decices.Contains(deviceID))
                 {
                     decices = KAutoHelper.ADBHelper.GetDevices();
                     soLanTimDevice++;
                     Common.Delay(2);
                     GhiLog.Write(deviceID, $"Tìm thiết bị lần {soLanTimDevice}");
                 }
-                #endregion
-                if (soLanTimDevice >= 40)
+                if (soLanTimDevice >= 30)
                 {
                     GhiLog.Write(deviceID, $"Tìm thiết bị thất bại ---- đóng chạy lại");
                     GhiLog.GhiFileList(deviceID, pathListAccount, "notfinish", true);
                     TatGiaLapvaChayLai(deviceID, processName);
                     return;
                 }
+                #endregion
 
                 #region tim gonews sau do click
                 var findGonews = HanhDong.WaitForFindOneBitmap(deviceID, GO_NEWS_BMP, 10, 2);
@@ -213,7 +213,14 @@ namespace gonews
                     if (solanhoanthanh >= 1)
                     {
                         int solandachay = GhiLog.GhiFileList(deviceID, pathListAccount); //ghifile
-                        if (solandachay >= 260)
+
+                        int soJobMaxTrongNgay = 300;
+                        this.soJobTrongNgay.Dispatcher.Invoke(() =>
+                        {
+                            soJobMaxTrongNgay = Convert.ToInt32(soJobTrongNgay.Text);
+                        });
+
+                        if (solandachay >= soJobMaxTrongNgay)
                         {
                             // ddax max so luong ngay
                             GhiLog.Write(deviceID, $"Hoàn thành số job của {deviceID} --- {solandachay} đã chạy hôm nay");
@@ -508,11 +515,14 @@ namespace gonews
 
         private void Load_date_off(object sender, RoutedEventArgs e)
         {
-            TimeSpan ts = new TimeSpan(7, 30, 0);
+            TimeSpan ts = new TimeSpan(8, 00, 0);
             timeoffApp.Value = DateTime.Now > DateTime.Now.Date + ts ? DateTime.Now.AddDays(1).Date + ts : DateTime.Now.Date + ts;
             timeoffApp.Format = Xceed.Wpf.Toolkit.DateTimeFormat.Custom;
             timeoffApp.FormatString = "HH:mm dd/MM/yyyy";
-            checkTatApp.IsChecked = true;
+            if (timeoffApp.Value?.DayOfWeek != DayOfWeek.Saturday || timeoffApp.Value?.DayOfWeek != DayOfWeek.Sunday)
+            {
+                checkTatApp.IsChecked = true;
+            }
             checkUpdateVersion.IsChecked = false;
         }
 
@@ -552,6 +562,14 @@ namespace gonews
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             Process.Start($"{Environment.CurrentDirectory}\\{pathListAccount}");
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            var fullPath = $"{Environment.CurrentDirectory}\\{pathGhilog}";
+            ProcessStartInfo psi = new ProcessStartInfo();
+            psi.FileName = Path.GetFileName(fullPath);
+            Process.Start(psi);
         }
     }
 }

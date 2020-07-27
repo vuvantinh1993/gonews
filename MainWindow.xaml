@@ -14,16 +14,19 @@
         <Button Content="Start" HorizontalAlignment="Left" Margin="183,131,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <Button Content="Stop" HorizontalAlignment="Left" Margin="302,131,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
         <Button Content="Cập Nhật DS Thiết Bị" HorizontalAlignment="Left" Margin="302,194,0,0" VerticalAlignment="Top" Width="130" Click="Cap_nhat_danh_sach_thiet_bi"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="183,240,0,0" VerticalAlignment="Top" Width="344">
+        <Grid HorizontalAlignment="Left" Height="147" Margin="183,240,0,0" VerticalAlignment="Top" Width="358" RenderTransformOrigin="0.503,0.339">
             <Label Content="Hẹn giờ tắt app :" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top"/>
-            <wpfTool:DateTimePicker Grid.Row="0" Name="timeoffApp" Margin="177,3,0,74" RenderTransformOrigin="0.879,0.625" Loaded="Load_date_off"/>
+            <wpfTool:DateTimePicker Grid.Row="0" Name="timeoffApp" Margin="177,3,0,121" RenderTransformOrigin="0.879,0.625" Loaded="Load_date_off"/>
             <CheckBox Content="" x:Name="checkTatApp" HorizontalAlignment="Left" Margin="119,6,0,0" VerticalAlignment="Top" Width="15"/>
             <Label Content="Update version mới khi chạy :" HorizontalAlignment="Left" Margin="0,46,0,0" VerticalAlignment="Top" Width="177"/>
             <CheckBox Content="" x:Name="checkUpdateVersion" HorizontalAlignment="Left" Margin="182,52,0,0" VerticalAlignment="Top"/>
-            <Button Content="Mở file log" HorizontalAlignment="Left" Margin="237,49,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_4"/>
+            <Button Content="Mở file log" HorizontalAlignment="Left" Margin="232,47,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click_4"/>
+            <TextBox HorizontalAlignment="Left" Name="soJobTrongNgay" Height="23" Margin="149,89,0,0" TextWrapping="Wrap" Text="250" TextAlignment="Right" VerticalAlignment="Top" Width="53"/>
+            <Button Content="Mở thư mục Log" HorizontalAlignment="Left" Margin="232,88,0,0" VerticalAlignment="Top" Width="105" RenderTransformOrigin="0.179,-0.3" Click="Button_Click_5"/>
         </Grid>
         <Button Content="Reset fileLog" HorizontalAlignment="Left" Margin="183,194,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
         <Button Content="UpdateGonews" HorizontalAlignment="Left" Margin="465,194,0,0" VerticalAlignment="Top" Width="97"/>
         <Button Content="Tắt giả lập" HorizontalAlignment="Left" Margin="423,131,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click_3"/>
+        <Label Content="Job cần hoàn thành:" HorizontalAlignment="Left" Margin="183,325,0,0" VerticalAlignment="Top" Width="129" RenderTransformOrigin="0.543,0.115"/>
     </Grid>
 </Window>
