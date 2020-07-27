@@ -20,6 +20,7 @@
             <CheckBox Content="" x:Name="checkTatApp" HorizontalAlignment="Left" Margin="119,6,0,0" VerticalAlignment="Top" Width="15"/>
             <Label Content="Update version mới khi chạy :" HorizontalAlignment="Left" Margin="0,46,0,0" VerticalAlignment="Top" Width="177"/>
             <CheckBox Content="" x:Name="checkUpdateVersion" HorizontalAlignment="Left" Margin="182,52,0,0" VerticalAlignment="Top"/>
+            <Button Content="Mở file log" HorizontalAlignment="Left" Margin="237,49,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_4"/>
         </Grid>
         <Button Content="Reset fileLog" HorizontalAlignment="Left" Margin="183,194,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
         <Button Content="UpdateGonews" HorizontalAlignment="Left" Margin="465,194,0,0" VerticalAlignment="Top" Width="97"/>

@@ -64,7 +64,7 @@ namespace gonews
 
         public void Chay()
         {
-            var taiKhoanSapChay = OpenAndReadFileLogin(listDevicesRunning);
+            var taiKhoanSapChay = GhiLog.GetAccount(listDevicesRunning, pathListAccount);
             if (taiKhoanSapChay.deviceId == "")
             {
                 return;
@@ -91,20 +91,19 @@ namespace gonews
                 // tìm devices
                 List<string> decices = KAutoHelper.ADBHelper.GetDevices();
                 var soLanTimDevice = 0;
-                while (soLanTimDevice < 10 && !decices.Contains(deviceID))
+                while (soLanTimDevice < 40 && !decices.Contains(deviceID))
                 {
                     decices = KAutoHelper.ADBHelper.GetDevices();
                     soLanTimDevice++;
-                    Common.Delay(5);
+                    Common.Delay(2);
                     GhiLog.Write(deviceID, $"Tìm thiết bị lần {soLanTimDevice}");
                 }
                 #endregion
-                if (soLanTimDevice >= 10)
+                if (soLanTimDevice >= 40)
                 {
-                    GhiLog.Write(deviceID, $"Tìm thiết bị thất bại ---- đóng chạy thiết bị khác");
-                    Task b = new Task(() => { Common.Delay(30); Chay(); });
-                    b.Start();
-                    processName.Kill();
+                    GhiLog.Write(deviceID, $"Tìm thiết bị thất bại ---- đóng chạy lại");
+                    GhiLog.GhiFileList(deviceID, pathListAccount, "notfinish", true);
+                    TatGiaLapvaChayLai(deviceID, processName);
                     return;
                 }
 
@@ -118,8 +117,6 @@ namespace gonews
                     if (fileDongGiaoDienNgDung.X == fileDongGiaoDienNgDung.Y && fileDongGiaoDienNgDung.Y == 0)
                     {
                         GhiLog.Write(deviceID, $"Không thấy ảnh đóng giao diện người dùng --- bỏ qua");
-                        //CaiDatGonews();
-                        //XoaTatCa(deviceID);
                     }
                     else
                     {
@@ -131,9 +128,8 @@ namespace gonews
                     if (findGonews.X + findGonews.Y == 0)
                     {
                         GhiLog.Write(deviceID, $"sau khi cài đặt vẫn không thấy gonews --- kiểm tra lại appgonews --- update bản mới nhất --- bỏ qua thiết bị này");
-                        Task b = new Task(() => { Common.Delay(30); Chay(); });
-                        b.Start();
-                        processName.Kill();
+                        GhiLog.GhiFileList(deviceID, pathListAccount, "notfinish", true);
+                        TatGiaLapvaChayLai(deviceID, processName);
                         return;
                     }
                 }
@@ -160,9 +156,10 @@ namespace gonews
 
                 GhiLog.Write(deviceID, $"Đi điểm danh");
                 DiemDanh(deviceID);
+                GhiLog.Write(deviceID, $"điểm danh xong");
             GOTO_MO_LAI_GO_NEW:
                 int demluottimbao = 0;
-                while (!clickNew(deviceID) && demluottimbao < 20)
+                while (!clickNew(deviceID) && demluottimbao < 30)
                 {
                     demluottimbao++;
                     Common.Delay(2);
@@ -180,7 +177,6 @@ namespace gonews
                         KAutoHelper.ADBHelper.Tap(deviceID, timtreoapp.X, timtreoapp.Y);
                         if (ClickAppGonews(deviceID))
                         {
-                            Common.Delay(7);
                             goto GOTO_MO_LAI_GO_NEW;
                         }
                     }
@@ -188,16 +184,14 @@ namespace gonews
                     {
                         if (ClickAppGonews(deviceID))
                         {
-                            Common.Delay(7);
                             goto GOTO_MO_LAI_GO_NEW;
                         }
                     }
                     #endregion
 
-                    GhiLog.Write(deviceID, $"Không tìm thấy bài viết sau 20 lần -- 2s/lần, xóa đi chạy lai");
-                    Task b = new Task(() => { Common.Delay(30); Chay(); });
-                    b.Start();
-                    processName.Kill();
+                    GhiLog.Write(deviceID, $"Không tìm thấy bài viết sau 30 lần -- 2s/lần, xóa đi chạy lai");
+                    GhiLog.GhiFileList(deviceID, pathListAccount, "notfinish", true);
+                    TatGiaLapvaChayLai(deviceID, processName);
                     return;
                 }
                 HanhDong.TangCochu(deviceID);
@@ -218,20 +212,16 @@ namespace gonews
 
                     if (solanhoanthanh >= 1)
                     {
-                        int solandachay = GhiFileList(deviceID);//ghifile
-                        if (solandachay >= 250)
+                        int solandachay = GhiLog.GhiFileList(deviceID, pathListAccount); //ghifile
+                        if (solandachay >= 260)
                         {
                             // ddax max so luong ngay
                             GhiLog.Write(deviceID, $"Hoàn thành số job của {deviceID} --- {solandachay} đã chạy hôm nay");
-                            Task b = new Task(() => { Common.Delay(30); Chay(); });
-                            b.Start();
-                            processName.Kill();
-                            listDevicesRunning.Remove(deviceID);
+                            GhiLog.GhiFileList(deviceID, pathListAccount, "finish"); //ghifile
+                            TatGiaLapvaChayLai(deviceID, processName);
                             return;
-
                         }
                     }
-
 
 
                     GhiLog.Write(deviceID, $"đọc bài báo 4 lần");
@@ -259,9 +249,10 @@ namespace gonews
                         bandadocbainayPoint = KAutoHelper.ImageScanOpenCV.FindOutPoint(screen2, BAN_DA_DOC_BAI_NAY_BMP);
                     }
 
-                    if (bandadocbainayPoint != null || solanlap > 2)
+                    GhiLog.Write(deviceID, $"---------------solanlap -------------{solanlap}");
+                    if (bandadocbainayPoint != null || solanlap > 1)
                     {
-                        if (solanlap > 2)
+                        if (solanlap > 1)
                         {
                             #region Kiểm tra gonews có bị treo app haytự đóng ứng dụng không nếu có đóng ứng dụng bật lại
                             var timtreoapp = HanhDong.WaitForFindTwoBitmap(deviceID, DONG_GIAO_DIEN_NGUOI_DUNG_BMP, GO_NEWS_BMP, 1, 1);
@@ -306,7 +297,10 @@ namespace gonews
                             #endregion
                         }
                     GOTO_TIMBAIBAOVACLICKNO:
-                        findNewAndClick(deviceID, ref solanlap, ref solanhoanthanh); // tìm bài báo và click nó
+                        if (!findNewAndClick(deviceID, ref solanlap, ref solanhoanthanh, processName))
+                        {
+                            return;
+                        }
                         GhiLog.Write(deviceID, $"Tìm thâí bài báo sau {solanlap} số lần lặp");
                     }
                     solanlap++;
@@ -314,6 +308,14 @@ namespace gonews
             });
             t.Start();
             Common.Delay(1);
+        }
+
+        private void TatGiaLapvaChayLai(string deviceID, Process processName)
+        {
+            listDevicesRunning.Remove(deviceID);
+            Task b = new Task(() => { Common.Delay(30); Chay(); });
+            b.Start();
+            processName.Kill();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -364,7 +366,7 @@ namespace gonews
 
 
         //return true là đã tìm thấy và click được
-        private void findNewAndClick(string deviceID, ref int solanlap, ref int demsolanchay)
+        private bool findNewAndClick(string deviceID, ref int solanlap, ref int demsolanchay, Process processName)
         {
             int i = 0;
             while (i < 10)
@@ -374,7 +376,7 @@ namespace gonews
                     GhiLog.Write(deviceID, $"Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới");
                     solanlap = 0;
                     demsolanchay++;
-                    return;
+                    return true;
                 }
                 HanhDong.KeoXuongFind(deviceID);
                 HanhDong.KeoXuongFind(deviceID);
@@ -391,7 +393,7 @@ namespace gonews
                     GhiLog.Write(deviceID, $"Tìm thấy bài báo mới tiếp theo ---- dọc bài báo mới");
                     solanlap = 0;
                     demsolanchay++;
-                    return;
+                    return true;
                 }
                 HanhDong.KeoLenFind(deviceID);
                 HanhDong.KeoLenFind(deviceID);
@@ -399,13 +401,10 @@ namespace gonews
                 i++;
             }
             // tắt app gonews và click gonews chạy lại
-            GhiLog.Write(deviceID, $"Không tìn thấy bài báo mới xóa đi chạy lại ------ ");
-            HanhDong.XoaTatCa(deviceID);
-            var findGonews = HanhDong.WaitForFindOneBitmap(deviceID, GO_NEWS_BMP);
-            KAutoHelper.ADBHelper.Tap(deviceID, findGonews.X, findGonews.Y);
-            HanhDong.WaitForFindOneBitmap(deviceID, NHIEM_VU_NOT_ACTIVE_BMP, 5, 5);
-            Common.Delay(2);
-            clickNew(deviceID);
+            GhiLog.Write(deviceID, $"Không tìn thấy bài báo mới tắt gải lập đi chạy lại ------ ");
+            GhiLog.GhiFileList(deviceID, pathListAccount, "notfinish", true);
+            TatGiaLapvaChayLai(deviceID, processName);
+            return false;
         }
 
         public void QuayLaiAll(string deviceID)
@@ -449,28 +448,6 @@ namespace gonews
             return false;
         }
 
-        //ghi file
-        public int GhiFileList(string deviceID, string result = "notfinish")
-        {
-            int solanchayhomnay = 0;
-            lock (pathListAccount)
-            {
-                string[] accounts = File.ReadAllLines(pathListAccount);
-                for (int i = 0; i < accounts.Count(); i++)
-                {
-                    var c = accounts[i].Split('|');
-                    if (c[0] == deviceID)
-                    {
-                        var str = c[0] + "|" + c[1] + "|" + c[2] + "|" + (Convert.ToInt32(c[3]) + 1).ToString() + "|" + result;
-                        solanchayhomnay = Convert.ToInt32(c[3]) + 1;
-                        accounts[i] = str;
-                    }
-                }
-                File.WriteAllLines(pathListAccount, accounts);
-            }
-            return solanchayhomnay;
-        }
-
         private Bitmap ChupAnhDiemSo(string deviceID)
         {
             KAutoHelper.ADBHelper.Tap(deviceID, 85, 780);
@@ -488,70 +465,31 @@ namespace gonews
         // trả về màn hình gonew chưa thao tac
         private void DiemDanh(string deviceID)
         {
-            var timNhiemvu = HanhDong.WaitForFindOneBitmap(deviceID, NHIEM_VU_NOT_ACTIVE_BMP, 5, 5);
-            KAutoHelper.ADBHelper.Tap(deviceID, timNhiemvu.X, timNhiemvu.Y); // click nhiem vu
-
-            //KAutoHelper.ADBHelper.Tap(deviceID, 266, 900); // click nhiệm vụ
-            Common.Delay(2);
-            KAutoHelper.ADBHelper.Tap(deviceID, 65, 270);
-            KAutoHelper.ADBHelper.Tap(deviceID, 65, 270);
-            //KAutoHelper.ADBHelper.Tap(deviceID, 65, 270);
-            KAutoHelper.ADBHelper.Tap(deviceID, 134, 270);
-            KAutoHelper.ADBHelper.Tap(deviceID, 134, 270);
-            //KAutoHelper.ADBHelper.Tap(deviceID, 134, 270);
-            KAutoHelper.ADBHelper.Tap(deviceID, 201, 270);
-            KAutoHelper.ADBHelper.Tap(deviceID, 201, 270);
-            //KAutoHelper.ADBHelper.Tap(deviceID, 201, 270);
-            KAutoHelper.ADBHelper.Tap(deviceID, 270, 270);
-            KAutoHelper.ADBHelper.Tap(deviceID, 270, 270);
-            //KAutoHelper.ADBHelper.Tap(deviceID, 270, 270);
-            KAutoHelper.ADBHelper.Tap(deviceID, 339, 270);
-            KAutoHelper.ADBHelper.Tap(deviceID, 339, 270);
-            //KAutoHelper.ADBHelper.Tap(deviceID, 339, 270);
-            KAutoHelper.ADBHelper.Tap(deviceID, 408, 270);
-            KAutoHelper.ADBHelper.Tap(deviceID, 408, 270);
-            //KAutoHelper.ADBHelper.Tap(deviceID, 408, 270);
-            KAutoHelper.ADBHelper.Tap(deviceID, 475, 270);
-            KAutoHelper.ADBHelper.Tap(deviceID, 475, 270);
-            //KAutoHelper.ADBHelper.Tap(deviceID, 475, 270);
+            var timNhiemvu = HanhDong.WaitForFindOneBitmap(deviceID, NHIEM_VU_NOT_ACTIVE_BMP, 20, 2);
+            if (timNhiemvu.X + timNhiemvu.Y != 0)
+            {
+                KAutoHelper.ADBHelper.Tap(deviceID, timNhiemvu.X, timNhiemvu.Y); // click nhiem vu
+                Common.Delay(2);
+                KAutoHelper.ADBHelper.Tap(deviceID, 65, 270);
+                KAutoHelper.ADBHelper.Tap(deviceID, 65, 270);
+                KAutoHelper.ADBHelper.Tap(deviceID, 134, 270);
+                KAutoHelper.ADBHelper.Tap(deviceID, 134, 270);
+                KAutoHelper.ADBHelper.Tap(deviceID, 201, 270);
+                KAutoHelper.ADBHelper.Tap(deviceID, 201, 270);
+                KAutoHelper.ADBHelper.Tap(deviceID, 270, 270);
+                KAutoHelper.ADBHelper.Tap(deviceID, 270, 270);
+                KAutoHelper.ADBHelper.Tap(deviceID, 339, 270);
+                KAutoHelper.ADBHelper.Tap(deviceID, 339, 270);
+                KAutoHelper.ADBHelper.Tap(deviceID, 408, 270);
+                KAutoHelper.ADBHelper.Tap(deviceID, 408, 270);
+                KAutoHelper.ADBHelper.Tap(deviceID, 475, 270);
+                KAutoHelper.ADBHelper.Tap(deviceID, 475, 270);
+            }
             KAutoHelper.ADBHelper.Tap(deviceID, 88, 900); // click báo mới
             Common.Delay(1);
         }
 
-        private (string nameShotcut, string deviceId, int count) OpenAndReadFileLogin(List<string> listDevicesRunning)
-        {
-            // tìm thằng nào có số lần chạy ít nhất, mở lên để chạy
-            string[] accounts = File.ReadAllLines(pathListAccount);
-            var nameShotcut = "";
-            var deviceId = "";
-            var count = 1000;
 
-            for (int i = 0; i < accounts.Length; i++)
-            {
-                var splitAccount = accounts[i].Split('|');
-                if (splitAccount.Count() == 5)
-                {
-                    if (!listDevicesRunning.Contains(splitAccount[0]))
-                    {
-                        if (Convert.ToInt32(splitAccount[3]) < count && splitAccount[4] != "finish")
-                        {
-                            nameShotcut = splitAccount[1];
-                            deviceId = splitAccount[0];
-                            count = Convert.ToInt32(splitAccount[3]);
-                        }
-                    }
-                }
-            }
-            if (nameShotcut == "")
-            {
-                MessageBox.Show("Tất cả tài khoản hôm nay đã hoàn thành");
-                return ("", "", 0);
-            }
-            else
-            {
-                return (nameShotcut, deviceId, count);
-            }
-        }
 
         private bool IsExitsFileLogin()
         {
@@ -609,6 +547,11 @@ namespace gonews
                 File.Delete(file);
                 Console.WriteLine($"{file} is deleted.");
             }
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            Process.Start($"{Environment.CurrentDirectory}\\{pathListAccount}");
         }
     }
 }

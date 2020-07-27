@@ -78,38 +78,42 @@ namespace gonews
             KAutoHelper.ADBHelper.Tap(deviceID, 290, 320);
             Common.DelayMiliSecond(500);
             var find3gach = WaitForFindOneBitmap(deviceID, Updatecapnhat3gach, 10, 1);
-            if ((find3gach.X + find3gach.Y) != 0)
+            if ((find3gach.X + find3gach.Y) == 0)
             {
-                GhiLog.Write(deviceID, $"Update --- tìm thấy kí hieu 3 gach");
+                GhiLog.Write(deviceID, $"Update --- Không thấy buttom 3 gạch, tap vào màn hình");
+                KAutoHelper.ADBHelper.Tap(deviceID, 76, 78);
+            }
+            else
+            {
+                GhiLog.Write(deviceID, $"Update --- Tìm thấy buttom 3 gạch, tap vào màn hình");
                 KAutoHelper.ADBHelper.Tap(deviceID, find3gach.X, find3gach.Y);
-                Common.DelayMiliSecond(200);
-                KAutoHelper.ADBHelper.Tap(deviceID, 130, 170);
-                GhiLog.Write(deviceID, $"Update --- tìm cap nhat tat cả hoặc không cớ cập nhật nào");
-                var find2Bitmap = WaitForFindTwoBitmap(deviceID, Updatecapnhattatca, Updatekhongcobancapnhatnao, 10, 1);
-                if (find2Bitmap.sttBitmap == 0)
-                {
-                    GhiLog.Write(deviceID, $"Update --- Lỗi............. update không thành công kiểm tra lại");
-                }
-                else if (find2Bitmap.sttBitmap == 1)
-                {
-                    GhiLog.Write(deviceID, $"Update --- tìm thấy button cập nhật tất cả");
-                    KAutoHelper.ADBHelper.Tap(deviceID, find2Bitmap.X, find2Bitmap.Y);
-                    var find = WaitForFindOneBitmap(deviceID, Updatekhongcobancapnhatnao, 20, 2);
-                    if (find.X + find.Y != 0)
-                    {
-                        GhiLog.Write(deviceID, $"Update --- tìm thấy button không có bản cập nhật nào --- cập nhật thành công");
-                    }
-                    else
-                    {
-                        GhiLog.Write(deviceID, $"Update --- Lỗi............. update không thành công kiểm tra lại");
-                    }
-                }
-                else
+            }
+            Common.DelayMiliSecond(200);
+            KAutoHelper.ADBHelper.Tap(deviceID, 130, 170);
+            GhiLog.Write(deviceID, $"Update --- tìm cap nhat tat cả hoặc không cớ cập nhật nào");
+            var find2Bitmap = WaitForFindTwoBitmap(deviceID, Updatecapnhattatca, Updatekhongcobancapnhatnao, 10, 1);
+            if (find2Bitmap.sttBitmap == 0)
+            {
+                GhiLog.Write(deviceID, $"Update --- Lỗi............. update không thành công kiểm tra lại");
+            }
+            else if (find2Bitmap.sttBitmap == 1)
+            {
+                GhiLog.Write(deviceID, $"Update --- tìm thấy button cập nhật tất cả");
+                KAutoHelper.ADBHelper.Tap(deviceID, find2Bitmap.X, find2Bitmap.Y);
+                var find = WaitForFindOneBitmap(deviceID, Updatekhongcobancapnhatnao, 20, 2);
+                if (find.X + find.Y != 0)
                 {
                     GhiLog.Write(deviceID, $"Update --- tìm thấy button không có bản cập nhật nào --- cập nhật thành công");
                 }
+                else
+                {
+                    GhiLog.Write(deviceID, $"Update --- Lỗi............. update không thành công kiểm tra lại");
+                }
             }
-            GhiLog.Write(deviceID, $"Không tìm thấy 3 gachj sau 10 laanf chay 1 giay");
+            else
+            {
+                GhiLog.Write(deviceID, $"Update --- tìm thấy button không có bản cập nhật nào --- cập nhật thành công");
+            }
         }
 
         // đợi để tìm một 1bitmat
