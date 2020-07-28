@@ -27,17 +27,18 @@ namespace gonews
         Bitmap UPDATE3GACH_BMP;
         Bitmap UPDATECAPNHATATCA_BMP;
         Bitmap UPDATEKHONGCOBANCAPNHATNAO_BMP;
-        string pathListAccount = "log//list.txt";
-        string pathShotcut = "fileshotcut";
-        string pathGhilog = "ghilog";
+        public static string pathListAccount = "log//list.txt";
+        public static string pathShotcut = "fileshotcut";
+        public static string pathGhilog = "ghilog";
         List<string> listDevicesRunning = new List<string>();
+        public static bool? ischeckGhiLog = false;
+
 
         public MainWindow()
         {
             loadData();
             InitializeComponent();
         }
-
         private void loadData()
         {
             GO_NEWS_BMP = (Bitmap)Bitmap.FromFile("Data//gonews.png");
@@ -84,7 +85,7 @@ namespace gonews
         {
             listDevicesRunning.Add(deviceID);
             GhiLog.Write(deviceID, $"danh sách thiết bị đang chạy {listDevicesRunning.Count()}");
-            Task t = new Task(() =>
+            Thread t = new Thread(() =>
             {
 
                 #region tìm device
@@ -139,6 +140,12 @@ namespace gonews
                 this.checkUpdateVersion.Dispatcher.Invoke(() =>
                 {
                     isCheckUpdateversion = checkUpdateVersion.IsChecked;
+                });
+
+
+                this.checkGhiLog.Dispatcher.Invoke(() =>
+                {
+                    ischeckGhiLog = checkGhiLog.IsChecked;
                 });
 
                 if (isCheckUpdateversion == true)
@@ -313,6 +320,7 @@ namespace gonews
                     solanlap++;
                 }
             });
+            t.SetApartmentState(ApartmentState.STA);
             t.Start();
             Common.Delay(1);
         }
@@ -524,6 +532,7 @@ namespace gonews
                 checkTatApp.IsChecked = true;
             }
             checkUpdateVersion.IsChecked = false;
+            checkGhiLog.IsChecked = false;
         }
 
         private bool isFinishCongTien(string deviceID, Bitmap anhcu)

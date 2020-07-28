@@ -13,18 +13,23 @@ namespace gonews
     {
         public static void Write(string nameFolder, string content)
         {
-            return;
+            //var mainWindow = new MainWindow();
+            if (MainWindow.ischeckGhiLog == false)
+            {
+                return;
+            }
+            var c = File.ReadAllLines($"{Environment.CurrentDirectory}\\{MainWindow.pathListAccount}");
+            var b = c.FirstOrDefault(x => x.Contains(nameFolder));
+            nameFolder = nameFolder.Replace(":", "_");
+            var path = $"{Environment.CurrentDirectory}\\ghilog\\{nameFolder}_{b.Split('|')[1]}.txt";
 
-            //nameFolder = nameFolder.Replace(":", "_");
-            //var path = $"{Environment.CurrentDirectory}\\ghilog\\{nameFolder}.txt";
-
-            //if (!File.Exists(path))
-            //{
-            //    var file = File.Create(path);
-            //    file.Close();
-            //}
-            //var stringWrite = $"{DateTime.Now} ---- {content} \n";
-            //File.AppendAllText(path, stringWrite);
+            if (!File.Exists(path))
+            {
+                var file = File.Create(path);
+                file.Close();
+            }
+            var stringWrite = $"{DateTime.Now} ---- {content} \n";
+            File.AppendAllText(path, stringWrite);
         }
 
         public static void ResetFileLog(string pathListAccount)
